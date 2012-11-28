@@ -1,0 +1,24 @@
+<!DOCTYPE html/>
+<html>
+    <head>
+        <script type="text/javascript" src="Model.js"></script>
+        <script type="text/javascript" src="View.js"></script>
+        <script type="text/javascript" src="Controller.js"></script>
+        <script>
+        window.onload = function(){    
+            var controller = new Tankaggedon.GameController("myCanvas");    
+            controller.init();
+            controller.testOperations();
+        };
+        </script>
+    </head>
+    <body>
+    	<header>
+    		<h1>Tankaggedon</h1>
+    	</header>
+    	<section>
+    		<canvas id="myCanvas" width="500" height="500" style="border:1px solid black">
+        </canvas>
+    	</section>
+    </body>
+</html>
