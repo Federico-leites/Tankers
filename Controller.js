@@ -17,6 +17,7 @@ Tankaggedon.GameController = function (canvasId) {
     		var tank = self.model.getScenario().getPlayerTank();
     		tank.rotateLeft();
     		tank.advance();
+    		console.log("test");
     	}, 1300);
 
         var timeOut = setTimeout(function() {
